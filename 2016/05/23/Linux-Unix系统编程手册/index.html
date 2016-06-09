@@ -84,28 +84,22 @@
 
 
 
-<meta name="description" content="第三章
-查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)
-查看glibc版本:
-ldd --version(ldd为glibc的一部分)
-找到glibc(libc.so.6)后直接运行">
+<meta name="description" content="第三章查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)查看glibc版本:
+
+1.ldd --version(ldd为glibc的一部分)2.找到glibc(libc.so.6)后直接运行">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux/Unix系统编程手册">
 <meta property="og:url" content="http://cqxmzhc.com/2016/05/23/Linux-Unix系统编程手册/index.html">
 <meta property="og:site_name" content="ZhangBin's Blog">
-<meta property="og:description" content="第三章
-查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)
-查看glibc版本:
-ldd --version(ldd为glibc的一部分)
-找到glibc(libc.so.6)后直接运行">
-<meta property="og:updated_time" content="2016-06-01T02:10:12.000Z">
+<meta property="og:description" content="第三章查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)查看glibc版本:
+
+1.ldd --version(ldd为glibc的一部分)2.找到glibc(libc.so.6)后直接运行">
+<meta property="og:updated_time" content="2016-06-09T08:51:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux/Unix系统编程手册">
-<meta name="twitter:description" content="第三章
-查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)
-查看glibc版本:
-ldd --version(ldd为glibc的一部分)
-找到glibc(libc.so.6)后直接运行">
+<meta name="twitter:description" content="第三章查找glibc位置:ldd myprog | grep libc(myprog为链接了glibc的任意程序)查看glibc版本:
+
+1.ldd --version(ldd为glibc的一部分)2.找到glibc(libc.so.6)后直接运行">
 
 
 
@@ -328,15 +322,11 @@ ldd --version(ldd为glibc的一部分)
       
 
       
-        <h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><ul>
-<li>查找glibc位置:<code>ldd myprog | grep libc</code>(myprog为链接了glibc的任意程序)</li>
-<li>查看glibc版本:<ul>
-<li><code>ldd --version</code>(ldd为glibc的一部分)</li>
-<li>找到glibc(libc.so.6)后直接运行<a id="more"></a>
-</li>
-</ul>
-</li>
-</ul>
+        <h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><p>查找glibc位置:<code>ldd myprog | grep libc</code>(myprog为链接了glibc的任意程序)<br>查看glibc版本:</p>
+<blockquote>
+<p>1.<code>ldd --version</code>(ldd为glibc的一部分)<br>2.找到glibc(libc.so.6)后直接运行</p>
+</blockquote>
+<a id="more"></a>
 <h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><ul>
 <li>文件空洞(p68)<blockquote>
 <p>linux系统通过<code>write</code>系统调用向文件写入内容.写入位置根据文件偏移量(指针)指定,并且可以在文件结尾后的任意位置继续写入.这里,从文件结尾到新写入数据位置的这段空间就叫做文件空洞,读取空洞会返回0(<code>&#39;\0&#39;</code>即空字节)填充的缓冲区,文件空洞不占用磁盘空间.</p>

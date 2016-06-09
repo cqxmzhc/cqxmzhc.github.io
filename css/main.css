@@ -455,7 +455,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 860px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -464,10 +464,12 @@ body {
 }
 .main {
   padding-bottom: 150px;
+  padding-top: 30px;
+  background: #eaeaea;
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 860px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -484,7 +486,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 860px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -869,7 +871,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: #fff;
+  background: #51aaf8;
 }
 .header-inner {
   position: relative;
@@ -996,6 +998,15 @@ pre .javascript .function {
 }
 .use-motion .menu-item {
   opacity: 0;
+}
+.post {
+  margin: 0px 5px 35px 5px;
+  padding: 16px 45px;
+  position: relative;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-transition: all 0.2s ease-in;
+  box-shadow: 1px 3px 5px rgba(66,55,68,0.6);
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -1309,10 +1320,12 @@ pre .javascript .function {
 }
 .post-more-link .btn {
   color: #555;
-  font-size: 14px;
-  background: transparent;
-  border-radius: 0;
-  line-height: 2;
+  display: inline-block;
+  padding: 0.3125rem 0.9375rem;
+  margin-right: 0.1875rem;
+  border: 0.0625rem solid #000;
+  border-radius: 0.125rem;
+  margin-bottom: 0.3125rem;
 }
 .posts-expand .post-tags {
   margin-top: 40px;
@@ -1548,7 +1561,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #09e86a;
+  background: #94966f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2128,11 +2141,8 @@ hr {
   margin: 20px 0;
   height: 2px;
 }
-.main-inner {
-  margin-top: 80px;
-}
 .header {
-  background: #f5f5f5;
+  background: #51aaf8;
 }
 .header-inner {
   padding: 25px 0 20px;
@@ -2289,12 +2299,6 @@ hr {
 }
 .posts-expand .post-eof {
   display: none;
-}
-.posts-expand .post {
-  margin-top: 120px;
-}
-.posts-expand .post:first-child {
-  margin-top: 0;
 }
 .posts-expand .post-meta {
   margin-top: 5px;
